@@ -107,6 +107,22 @@ Access was then successfully verified using `/media/sf_Downloads`, including cre
 
 Linux paths are case-sensitive. When troubleshooting VirtualBox shared folders, verify the actual mount point instead of assuming the folder name's capitalization.
 
+## Evidence / Screenshots
+
+The following evidence is stored directly in this repository. Each item links to its corresponding screenshot.
+
+1. **NAT Network configuration** — [`01-natnetwork-configuration.png`](./01-natnetwork-configuration.png)
+2. **Kali network adapter configuration** — [`02-kali-network-adapter.png`](./02-kali-network-adapter.png)
+3. **Kali IP configuration** — [`03-kali-ip-configuration.png.png`](./03-kali-ip-configuration.png.png)
+4. **Internet connectivity** — [`04-internet-connectivity.png.png`](./04-internet-connectivity.png.png)
+5. **Clipboard & Drag-and-Drop — Bidirectional** — [`05-clipboard-bidirectional.png.png`](./05-clipboard-bidirectional.png.png)
+6. **Shared folder verification** — [`07-shared-folder-verification.png.png`](./07-shared-folder-verification.png.png)
+7. **Baseline snapshot** — [`08-baseline-snapshot.png.png`](./08-baseline-snapshot.png.png)
+
+> Screenshot 5 documents both Clipboard and Drag-and-Drop settings, so a separate screenshot 6 is not required.
+
+> Only information appropriate for public sharing should be included in screenshots. Do not publish credentials, personal data, or unrelated sensitive host information.
+
 ## Snapshot
 
 After configuration and verification, a clean baseline snapshot was created:
@@ -114,21 +130,6 @@ After configuration and verification, a clean baseline snapshot was created:
 **`Project1-Phase1-Baseline`**
 
 This snapshot provides a known-good rollback point before further lab changes.
-
-## Evidence / Screenshots
-
-Screenshots will be added to this repository as evidence of the completed setup, including:
-
-1. VirtualBox NAT Network configuration
-2. Kali VM network adapter configuration
-3. Kali IP configuration
-4. Internet connectivity
-5. Clipboard and drag-and-drop settings
-6. Shared folder configuration
-7. Shared folder verification in Kali
-8. Baseline snapshot
-
-> Only information appropriate for public sharing should be included in screenshots. Do not publish credentials, personal data, or unrelated sensitive host information.
 
 ## Optional Week 1 Extensions
 
